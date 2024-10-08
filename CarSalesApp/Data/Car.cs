@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.EntityFrameworkCore;
+using System.ComponentModel.DataAnnotations;
 
 namespace CarSalesApp.Data
 {
@@ -41,6 +42,8 @@ namespace CarSalesApp.Data
             };
             return str;
         }
+
+        
 
     }
 }
